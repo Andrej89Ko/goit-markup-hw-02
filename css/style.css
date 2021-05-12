@@ -42,6 +42,9 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+.nav-list-item.current {
+  color: var(--c-blue);
+}
 .nav-list-item:hover,
 .nav-list-item:focus {
   color: var(--c-blue);
@@ -92,4 +95,9 @@ body {
 }
 .btn {
   cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--c-blue);
+  color: var(--txt-c-white);
 }
